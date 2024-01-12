@@ -52,7 +52,7 @@ const Blog = () => {
               />
               <Link href={`/blog/${capsule.id}`}>
                 <p style={{ fontWeight: "bold" }}>
-                  {index + 1}. {capsule.title}
+                  {index + 1}. {capsule.title} (Click Details)
                 </p>
               </Link>
               <p>{capsule.description}</p>
